@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modulo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo2.Designer.cs">
+      <DependentUpon>Modulo2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulo1.resx">
       <DependentUpon>Modulo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo2.resx">
+      <DependentUpon>Modulo2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
