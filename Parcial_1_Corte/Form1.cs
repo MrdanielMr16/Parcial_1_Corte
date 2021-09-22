@@ -14,7 +14,14 @@ namespace Parcial_1_Corte
     {
         public Form1()
         {
+
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Modulo1 formulario1 = new Modulo1();
+            formulario1.Show();
         }
     }
 }
