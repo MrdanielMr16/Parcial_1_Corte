@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Parcial_1_Corte
 {
-    public partial class Form1 : Form
+    public partial class Menu : Form
     {
-        public Form1()
+        public Menu()
         {
             InitializeComponent();
         }
@@ -25,6 +25,11 @@ namespace Parcial_1_Corte
         {
             Modulo2 formulario2 = new Modulo2();
             formulario2.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

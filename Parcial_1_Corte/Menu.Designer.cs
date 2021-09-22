@@ -1,7 +1,7 @@
 ﻿
 namespace Parcial_1_Corte
 {
-    partial class Form1
+    partial class Menu
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -67,6 +67,7 @@ namespace Parcial_1_Corte
             this.button3.TabIndex = 2;
             this.button3.Text = "Modulo 3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 

@@ -26,12 +26,12 @@ namespace Parcial_1_Corte
             Numero1 = Convert.ToInt32(Num1.Text);
             Numero2 = Convert.ToInt32(Num2.Text);
 
-            if (Numero1 >= Numero2)
+            if (Numero1 > Numero2)
             {
                 NumMenor = Numero2;
                 label4.Text = ("El resultado es: " + NumMenor);
             }
-            else if (Numero2 >= Numero1)
+            else if (Numero2 > Numero1)
             {
                 NumMenor = Numero1;
                 label4.Text = ("El resultado es: " + NumMenor);

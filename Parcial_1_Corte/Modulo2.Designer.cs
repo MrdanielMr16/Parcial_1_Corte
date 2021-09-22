@@ -118,7 +118,7 @@ namespace Parcial_1_Corte
             this.txtArea.Size = new System.Drawing.Size(100, 20);
             this.txtArea.TabIndex = 9;
             // 
-            // _2
+            // Modulo2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -132,7 +132,7 @@ namespace Parcial_1_Corte
             this.Controls.Add(this.lblAltura);
             this.Controls.Add(this.lblBase);
             this.Controls.Add(this.lblTitulo);
-            this.Name = "_2";
+            this.Name = "Modulo2";
             this.Text = "_2";
             this.ResumeLayout(false);
             this.PerformLayout();
