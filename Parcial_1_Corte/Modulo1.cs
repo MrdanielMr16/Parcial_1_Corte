@@ -29,13 +29,18 @@ namespace Parcial_1_Corte
             if (Numero1 > Numero2)
             {
                 NumMenor = Numero2;
-                label4.Text = ("El resultado es: " + NumMenor);
+                label4.Text = ("El numero menor es: " + NumMenor);
             }
             else if (Numero2 > Numero1)
             {
                 NumMenor = Numero1;
-                label4.Text = ("El resultado es: " + NumMenor);
+                label4.Text = ("El numero menor es: " + NumMenor);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
