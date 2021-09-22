@@ -31,5 +31,11 @@ namespace Parcial_1_Corte
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Modulo4 formulario4 = new Modulo4();
+            formulario4.Show();
+        }
     }
 }

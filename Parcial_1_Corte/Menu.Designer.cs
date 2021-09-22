@@ -77,6 +77,7 @@ namespace Parcial_1_Corte
             this.button4.TabIndex = 3;
             this.button4.Text = "Modulo 4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -116,7 +117,7 @@ namespace Parcial_1_Corte
             this.label2.TabIndex = 7;
             this.label2.Text = "Controlador de versiones";
             // 
-            // Form1
+            // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -129,7 +130,7 @@ namespace Parcial_1_Corte
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "Menu";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
