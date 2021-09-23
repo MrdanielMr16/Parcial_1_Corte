@@ -19,26 +19,38 @@ namespace Parcial_1_Corte
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var Alfabeto = new Dictionary<char, int>()
-        {
-            {'a', 0},{'b', 0},{'c', 0},{'d', 0},
-            {'e', 0},{'f', 0}, {'g', 0},{'h', 0},
-            {'i', 0},{'g', 0},{'k', 0}, {'l', 0},
-            {'m', 0},{'m', 0},{'o', 0},{'p', 0},
-            {'k', 0},{'r', 0},{'s', 0},{'t', 0},
-            {'w', 0},{'x', 0}, {'y', 0},{'z', 0},
-        };
-           
-            string Frase = TxtFrase.Text;
-
-            for (int i = 0; i < Frase.Length; i++)
+            List<String> Frases = new List<string>();
+            string cadena = " ";
+            int contador = 0;
+            char[] arrayCadena;
+            string Quitar = string.Empty;
+            cadena = TxtFrase.Text.Replace(" ","");
+            arrayCadena = cadena.ToCharArray();
+            for (int i = 0; i < arrayCadena.Length; i++)
             {
-                if (Alfabeto.ContainsKey(char.ToLower(Frase[i])))
+                for (int j = 0; j < arrayCadena.Length; j++)
                 {
-                    Alfabeto[char.ToLower(Frase[i])]++;
+                    if (arrayCadena[i] == arrayCadena[j])
+                    {
+                        contador++;
+                    }
                 }
-                Resultado.Text = Frase.ToString();
+                Frases.Add(arrayCadena[i] + " " + contador + "\n");
+                Console.WriteLine(Quitar);
+                contador = 0;
             }
+            HashSet<string> SinFrases = new HashSet<string>(Frases);
+            foreach (String var in SinFrases)
+            {
+                Quitar = Quitar + var.ToString();
+            }
+            Console.WriteLine(Quitar);
+            Resultado.Text = (Quitar);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
