@@ -20,7 +20,7 @@ namespace Parcial_1_Corte
         private void button1_Click(object sender, EventArgs e)
         {
             String Frase = txtFrase.Text;
-            String Resultado = String.Join(" ", Frase.Split(' ').Select(x => new String(x.Reverse().ToArray())));
+            String Resultado = String.Join(" ", Frase.Split('a').Select(x => new String(x.Reverse().ToArray())));
             txtFraseResultado.Text = Resultado;
         }
         private void btnCerrar_Click(object sender, EventArgs e)

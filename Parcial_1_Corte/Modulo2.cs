@@ -18,8 +18,8 @@ namespace Parcial_1_Corte
         }
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            double Base = Convert.ToInt32(txtBase.Text);
-            double Altura = Convert.ToInt32(txtAltura.Text);
+            double Base = Convert.ToDouble(txtBase.Text);
+            double Altura = Convert.ToDouble(txtAltura.Text);
             double Area = (Base * Altura) / 2;
             txtArea.Text = Area.ToString();
         }

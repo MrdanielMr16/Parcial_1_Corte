@@ -44,5 +44,11 @@ namespace Parcial_1_Corte
             Modulo5 formulario5 = new Modulo5();
             formulario5.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Modulo6 formulario6 = new Modulo6();
+            formulario6.Show();
+        }
     }
 }
