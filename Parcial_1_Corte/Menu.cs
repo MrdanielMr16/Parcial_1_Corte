@@ -29,13 +29,20 @@ namespace Parcial_1_Corte
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Modulo3 formulario3 = new Modulo3();
+            formulario3.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             Modulo4 formulario4 = new Modulo4();
             formulario4.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Modulo5 formulario5 = new Modulo5();
+            formulario5.Show();
         }
     }
 }

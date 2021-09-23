@@ -36,6 +36,11 @@ namespace Parcial_1_Corte
                 NumMenor = Numero1;
                 label4.Text = ("El numero menor es: " + NumMenor);
             }
+            else
+            {
+                label4.Text = ("Los numeros son iguales");
+            } 
+                
         }
 
         private void button1_Click(object sender, EventArgs e)

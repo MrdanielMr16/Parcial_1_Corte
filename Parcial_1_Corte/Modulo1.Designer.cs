@@ -60,7 +60,7 @@ namespace Parcial_1_Corte
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(389, 79);
+            this.label2.Location = new System.Drawing.Point(366, 79);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(273, 25);
             this.label2.TabIndex = 2;
@@ -68,7 +68,7 @@ namespace Parcial_1_Corte
             // 
             // Num2
             // 
-            this.Num2.Location = new System.Drawing.Point(465, 113);
+            this.Num2.Location = new System.Drawing.Point(450, 113);
             this.Num2.Name = "Num2";
             this.Num2.Size = new System.Drawing.Size(100, 20);
             this.Num2.TabIndex = 3;
@@ -85,9 +85,9 @@ namespace Parcial_1_Corte
             // 
             // Btn_Comparar
             // 
-            this.Btn_Comparar.Location = new System.Drawing.Point(280, 144);
+            this.Btn_Comparar.Location = new System.Drawing.Point(270, 144);
             this.Btn_Comparar.Name = "Btn_Comparar";
-            this.Btn_Comparar.Size = new System.Drawing.Size(109, 35);
+            this.Btn_Comparar.Size = new System.Drawing.Size(125, 35);
             this.Btn_Comparar.TabIndex = 5;
             this.Btn_Comparar.Text = "Comparar";
             this.Btn_Comparar.UseVisualStyleBackColor = true;
@@ -96,7 +96,7 @@ namespace Parcial_1_Corte
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(294, 197);
+            this.label4.Location = new System.Drawing.Point(277, 193);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 13);
             this.label4.TabIndex = 6;
@@ -104,7 +104,7 @@ namespace Parcial_1_Corte
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(548, 259);
+            this.button1.Location = new System.Drawing.Point(554, 256);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 7;

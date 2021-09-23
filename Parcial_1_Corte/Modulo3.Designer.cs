@@ -31,7 +31,9 @@ namespace Parcial_1_Corte
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TxtFrase = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Resultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -54,19 +56,40 @@ namespace Parcial_1_Corte
             this.label2.TabIndex = 1;
             this.label2.Text = "Escribe tu frase";
             // 
-            // textBox1
+            // TxtFrase
             // 
-            this.textBox1.Location = new System.Drawing.Point(228, 112);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(230, 20);
-            this.textBox1.TabIndex = 2;
+            this.TxtFrase.Location = new System.Drawing.Point(228, 112);
+            this.TxtFrase.Name = "TxtFrase";
+            this.TxtFrase.Size = new System.Drawing.Size(230, 20);
+            this.TxtFrase.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(307, 147);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Calcular";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Resultado
+            // 
+            this.Resultado.AutoSize = true;
+            this.Resultado.Location = new System.Drawing.Point(312, 189);
+            this.Resultado.Name = "Resultado";
+            this.Resultado.Size = new System.Drawing.Size(72, 13);
+            this.Resultado.TabIndex = 4;
+            this.Resultado.Text = "Las letras son";
             // 
             // Modulo3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(695, 297);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Resultado);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.TxtFrase);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Modulo3";
@@ -80,6 +103,8 @@ namespace Parcial_1_Corte
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TxtFrase;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label Resultado;
     }
 }
