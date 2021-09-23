@@ -27,31 +27,31 @@ namespace Parcial_1_Corte
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            StringBuilder Letras_Faltantes = new StringBuilder();
-            Pangrama = new StringBuilder(Pangrama_Text.Text.ToUpper());
-
-            foreach (char Cp in CaracteresPuntuacion)
-
-            Pangrama.Replace(Cp.ToString(), "".ToString());
-            ContadorLetras.Text = "Total Letters = " +
-            Pangrama.Length.ToString();
-
-            foreach (char Le in Letras.ToCharArray())
-            {
-                if (!Pangrama.ToString().Contains(Le))
-                {
-                    Letras_Faltantes.Append(Le);
-                    Letras_Faltantes.Append(" ");
-                }
-                
-            }
-
-            Faltan.Text = Letras_Faltantes.ToString();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int n = Convert.ToInt32(Pangrama_Text.Text.Length);
+            String exp;
+            bool pangrama = true;
+            for (int i = 0; i < n; i++)
+            {
+                exp = Pangrama_Text.Text.Trim();
+                for (char ascii = 'A'; ascii <= 'Z'; ascii++)
+                {
+                    if (!exp.ToUpper().Contains("" + ascii))
+                    {
+                        pangrama = false;
+                    }
+                }
+            }
+            Bol_Pangrama.Text = (pangrama ? "SI" : "NO");
         }
     }
 }
