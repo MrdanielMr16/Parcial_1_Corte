@@ -42,16 +42,16 @@ namespace Parcial_1_Corte
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(69, 79);
+            this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 79);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(250, 25);
+            this.label1.Size = new System.Drawing.Size(241, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ingrese el primer numero";
             // 
             // Num1
             // 
-            this.Num1.Location = new System.Drawing.Point(128, 113);
+            this.Num1.Location = new System.Drawing.Point(77, 113);
             this.Num1.Name = "Num1";
             this.Num1.Size = new System.Drawing.Size(100, 20);
             this.Num1.TabIndex = 1;
@@ -59,10 +59,10 @@ namespace Parcial_1_Corte
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(366, 79);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(273, 25);
+            this.label2.Size = new System.Drawing.Size(262, 24);
             this.label2.TabIndex = 2;
             this.label2.Text = "Ingrese el segundo numero";
             // 
@@ -76,16 +76,17 @@ namespace Parcial_1_Corte
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("MS PGothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(274, 21);
+            this.label3.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(249, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 33);
+            this.label3.Size = new System.Drawing.Size(145, 36);
             this.label3.TabIndex = 4;
             this.label3.Text = "Modulo 1";
             // 
             // Btn_Comparar
             // 
-            this.Btn_Comparar.Location = new System.Drawing.Point(270, 144);
+            this.Btn_Comparar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Comparar.Location = new System.Drawing.Point(255, 139);
             this.Btn_Comparar.Name = "Btn_Comparar";
             this.Btn_Comparar.Size = new System.Drawing.Size(125, 35);
             this.Btn_Comparar.TabIndex = 5;
@@ -96,17 +97,19 @@ namespace Parcial_1_Corte
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(277, 193);
+            this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(252, 177);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 13);
+            this.label4.Size = new System.Drawing.Size(129, 16);
             this.label4.TabIndex = 6;
             this.label4.Text = "El numero menor es:";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(554, 256);
+            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(272, 222);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(88, 29);
             this.button1.TabIndex = 7;
             this.button1.Text = "Cerrar";
             this.button1.UseVisualStyleBackColor = true;
@@ -116,7 +119,7 @@ namespace Parcial_1_Corte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(674, 310);
+            this.ClientSize = new System.Drawing.Size(636, 266);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.Btn_Comparar);

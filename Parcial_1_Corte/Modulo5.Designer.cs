@@ -41,29 +41,30 @@ namespace Parcial_1_Corte
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(316, 9);
+            this.label1.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(300, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 33);
+            this.label1.Size = new System.Drawing.Size(133, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Modulo 5";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(318, 56);
+            this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(319, 60);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 20);
+            this.label2.Size = new System.Drawing.Size(98, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Ingresa tu texto";
             // 
             // ContadorLetras
             // 
             this.ContadorLetras.AutoSize = true;
+            this.ContadorLetras.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ContadorLetras.Location = new System.Drawing.Point(39, 165);
             this.ContadorLetras.Name = "ContadorLetras";
-            this.ContadorLetras.Size = new System.Drawing.Size(87, 13);
+            this.ContadorLetras.Size = new System.Drawing.Size(107, 16);
             this.ContadorLetras.TabIndex = 5;
             this.ContadorLetras.Text = "Es un pangrama:";
             // 
@@ -77,9 +78,10 @@ namespace Parcial_1_Corte
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(634, 160);
+            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(635, 165);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(84, 32);
             this.button1.TabIndex = 9;
             this.button1.Text = "Cerrar";
             this.button1.UseVisualStyleBackColor = true;
@@ -87,16 +89,17 @@ namespace Parcial_1_Corte
             // 
             // Bol_Pangrama
             // 
-            this.Bol_Pangrama.Location = new System.Drawing.Point(132, 162);
+            this.Bol_Pangrama.Location = new System.Drawing.Point(143, 165);
             this.Bol_Pangrama.Name = "Bol_Pangrama";
-            this.Bol_Pangrama.Size = new System.Drawing.Size(100, 20);
+            this.Bol_Pangrama.Size = new System.Drawing.Size(51, 20);
             this.Bol_Pangrama.TabIndex = 11;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(322, 119);
+            this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(322, 115);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(95, 30);
             this.button2.TabIndex = 13;
             this.button2.Text = "Verificar";
             this.button2.UseVisualStyleBackColor = true;
@@ -106,7 +109,7 @@ namespace Parcial_1_Corte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(731, 209);
+            this.ClientSize = new System.Drawing.Size(731, 211);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Bol_Pangrama);
             this.Controls.Add(this.button1);

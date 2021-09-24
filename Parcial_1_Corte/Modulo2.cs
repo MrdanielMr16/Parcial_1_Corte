@@ -21,7 +21,7 @@ namespace Parcial_1_Corte
             double Base = Convert.ToDouble(txtBase.Text);
             double Altura = Convert.ToDouble(txtAltura.Text);
             double Area = (Base * Altura) / 2;
-            txtArea.Text = Area.ToString();
+            lblArea.Text = "El area es: "  + Area.ToString();
         }
         private void btnCerrar_Click(object sender, EventArgs e)
         {

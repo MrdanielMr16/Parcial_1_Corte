@@ -38,30 +38,33 @@ namespace Parcial_1_Corte
             this.lblVidas = new System.Windows.Forms.Label();
             this.txtVidas = new System.Windows.Forms.Label();
             this.btnCerrar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picboxAhorcado)).BeginInit();
             this.SuspendLayout();
             // 
             // lblFrase
             // 
             this.lblFrase.AutoSize = true;
-            this.lblFrase.Location = new System.Drawing.Point(12, 9);
+            this.lblFrase.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFrase.Location = new System.Drawing.Point(14, 50);
             this.lblFrase.Name = "lblFrase";
-            this.lblFrase.Size = new System.Drawing.Size(83, 13);
+            this.lblFrase.Size = new System.Drawing.Size(101, 16);
             this.lblFrase.TabIndex = 0;
             this.lblFrase.Text = "Ingresa tu frase:";
             // 
             // txtFrase
             // 
-            this.txtFrase.Location = new System.Drawing.Point(15, 27);
+            this.txtFrase.Location = new System.Drawing.Point(17, 72);
             this.txtFrase.Name = "txtFrase";
-            this.txtFrase.Size = new System.Drawing.Size(100, 20);
+            this.txtFrase.Size = new System.Drawing.Size(152, 20);
             this.txtFrase.TabIndex = 1;
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(121, 25);
+            this.btnIngresar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngresar.Location = new System.Drawing.Point(175, 67);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(75, 23);
+            this.btnIngresar.Size = new System.Drawing.Size(96, 28);
             this.btnIngresar.TabIndex = 2;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
@@ -92,36 +95,50 @@ namespace Parcial_1_Corte
             // lblVidas
             // 
             this.lblVidas.AutoSize = true;
-            this.lblVidas.Location = new System.Drawing.Point(499, 50);
+            this.lblVidas.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVidas.Location = new System.Drawing.Point(474, 72);
             this.lblVidas.Name = "lblVidas";
-            this.lblVidas.Size = new System.Drawing.Size(36, 13);
+            this.lblVidas.Size = new System.Drawing.Size(45, 16);
             this.lblVidas.TabIndex = 6;
             this.lblVidas.Text = "Vidas:";
             // 
             // txtVidas
             // 
             this.txtVidas.AutoSize = true;
-            this.txtVidas.Location = new System.Drawing.Point(538, 50);
+            this.txtVidas.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVidas.Location = new System.Drawing.Point(516, 73);
             this.txtVidas.Name = "txtVidas";
-            this.txtVidas.Size = new System.Drawing.Size(13, 13);
+            this.txtVidas.Size = new System.Drawing.Size(15, 16);
             this.txtVidas.TabIndex = 7;
             this.txtVidas.Text = "7";
             // 
             // btnCerrar
             // 
+            this.btnCerrar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.Location = new System.Drawing.Point(658, 485);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCerrar.Size = new System.Drawing.Size(75, 27);
             this.btnCerrar.TabIndex = 9;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(291, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(166, 33);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "MODULO 6";
+            // 
             // Modulo6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(747, 520);
+            this.ClientSize = new System.Drawing.Size(747, 524);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.txtVidas);
             this.Controls.Add(this.lblVidas);
@@ -150,5 +167,6 @@ namespace Parcial_1_Corte
         private System.Windows.Forms.Label lblVidas;
         private System.Windows.Forms.Label txtVidas;
         private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Label label1;
     }
 }
